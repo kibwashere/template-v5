@@ -5,6 +5,10 @@ const path = require('path');
 const mime = require('mime-types');
 const { categories, authors, articles, global, about } = require('../data/data.json');
 
+module.exports = {
+   seedExampleApp
+}
+
 async function seedExampleApp() {
   const shouldImportSeedData = await isFirstRun();
 

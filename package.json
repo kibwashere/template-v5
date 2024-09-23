@@ -1,5 +1,5 @@
 {
-  "name": "my-blog-template-x",
+  "name": "my-app-name",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -27,8 +27,5 @@
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
-  },
-  "strapi": {
-    "uuid": "0e049594-6d45-4c13-b0c7-db8853f6e44d"
   }
 }
